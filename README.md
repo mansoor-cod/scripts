@@ -1,5 +1,3 @@
-Scripts
-
 Usage:
 
 open terminal 
