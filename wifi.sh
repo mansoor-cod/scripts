@@ -1,5 +1,9 @@
 #!/bin/bash
-echo "enter ssid:"
-read
+if [ -z "$1" ]
+then
+    echo "Usage: ./wifi.sh <SSID>"
+    exit 1
+fi 
+
 cd /etc/NetworkManager/system-connections/
-sudo cat $REPLY | grep psk= | awk '{print substr($1,5)}'
+sudo cat $1 | grep psk= | awk '{print substr($1,5)}'
