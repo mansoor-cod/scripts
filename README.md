@@ -1,9 +1,25 @@
-Usage:
 
-open terminal 
+# Bash Scripts
+Collection of bash scripts for various uses
 
-locate to the file 
+## Usage
 
-type: 'chmod +x (file-name)'
+```
+wget https://raw.githubusercontent.com/mansoorbarri/Bash-scripts/main/<filename>
+chmod +x <filename>
+./<filename>
+```
 
-'./(file-name)'
+
+## Contributing
+
+Contributions are always welcome!
+
+See `contributing.md` for ways to get started.
+
+
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://whoismansoorbarri.com/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.mansoor.cf/linkedin)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/mansoorbarri)
+
