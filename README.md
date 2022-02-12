@@ -15,8 +15,7 @@ chmod +x <filename>
 
 Contributions are always welcome!
 
-contact @ www.mansoor.cf for more info
-
+contact for more info.
 
 ## 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://whoismansoorbarri.cf/)
