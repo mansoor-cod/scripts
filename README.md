@@ -15,7 +15,7 @@ chmod +x <filename>
 
 Contributions are always welcome!
 
-See `contributing.md` for ways to get started.
+contact @ www.mansoor.cf for more info
 
 
 ## 🔗 Links
