@@ -35,4 +35,4 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install -f -y ./*.deb
 
 ## Install 
-sudo apt install nala anydesk brave-browser ufw -y 
+sudo apt install nala anydesk brave-browser firefox-esr ufw filezilla autojump -y 
