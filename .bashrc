@@ -165,4 +165,5 @@ alias wadb="adb connect 192.168.0.13:5555"
 alias nano="micro"
 alias yt-dlp="~/Music/anar/scripts/yt-dlp_linux"
 alias hugonew="~/Music/anar/scripts/hugo-article"
+alias ll="ls -l"
 export PATH=$PATH:/home/anar/.spicetify
