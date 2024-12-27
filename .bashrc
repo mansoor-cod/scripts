@@ -140,30 +140,17 @@ sudo() {
 #starshell 
 eval "$(starship init bash)"
 
-# ssh
-alias deb-mir="ssh anar@192.168.0.17"
-
 #autojump
 . /usr/share/autojump/autojump.sh
 
 export PATH=$PATH:/usr/local/go/bin
-export PATH=$PATH:./home/anar/Documents/GitHub/mani/geckodriver
 
 alias ipv="curl ifconfig.me"
-alias cw="code ~/Music/anar/gh/website"
 alias wscreen="scrcpy --turn-screen-off --stay-awake"
-alias sndcpy="cd ~/Music/anar/scripts/sndcpy/ && ./sndcpy"
 alias rm="trash"
 alias subl="/opt/sublime_text/sublime_text"
-alias ayt="yt-dlp --no-warnings -q --embed-thumbnail --progress -x --audio-format mp3"
-alias vsyt="yt-dlp  -q --no-warnings --write-subs -f b"
-alias dmusic="~/Music/anar/scripts/spotdl.sh"
 alias pserver="python3 -m http.server 8080"
 alias mdrive="rclone mount --daemon gdrive:/ ~/drive"
-alias vmo="virtualmic http://192.168.0.13:8080/audio.opus"
-alias wadb="adb connect 192.168.0.13:5555"
 alias nano="micro"
-alias yt-dlp="~/Music/anar/scripts/yt-dlp_linux"
-alias hugonew="~/Music/anar/scripts/hugo-article"
 alias ll="ls -l"
-export PATH=$PATH:/home/anar/.spicetify
+alias tt="gsettings set org.gnome.desktop.peripherals.touchpad send-events \$(if [ \$(gsettings get org.gnome.desktop.peripherals.touchpad send-events) = \"'enabled'\" ]; then echo \"'disabled'\"; else echo \"'enabled'\"; fi)"
